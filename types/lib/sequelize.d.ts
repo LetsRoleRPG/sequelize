@@ -167,7 +167,7 @@ export interface Config {
   };
 }
 
-export type Dialect = 'mysql' | 'postgres' | 'sqlite' | 'mariadb' | 'mssql';
+export type Dialect = 'mysql' | 'postgres' | 'sqlite' | 'mariadb' | 'mssql' | 'node';
 
 export interface RetryOptions {
   match?: (RegExp | string | Function)[];
